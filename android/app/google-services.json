@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "427267083991",
+    "firebase_url": "https://crowedchatapp.firebaseio.com",
+    "project_id": "crowedchatapp",
+    "storage_bucket": "crowedchatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:427267083991:android:8ebefe7a257792381bea92",
+        "android_client_info": {
+          "package_name": "com.crowed.crowedChatApplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "427267083991-83r8ri64fusi1n5hm1mts2mbl8i0spqp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.crowed.crowedChatApplication",
+            "certificate_hash": "416147137a8e4a5437733bfea24a95f5aea20c95"
+          }
+        },
+        {
+          "client_id": "427267083991-68scfqijshvh29b1894ifllp9hgd76ed.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoOVrr7myXGrw_7LfL79aQHBlYKJ0hrT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "427267083991-68scfqijshvh29b1894ifllp9hgd76ed.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
