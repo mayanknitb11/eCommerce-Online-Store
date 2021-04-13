@@ -1,6 +1,9 @@
 name: flutter_chat_demo
 description: This is the demo for chat app by Flutter
 
+environment:
+  sdk: '>=2.10.0 <3.0.0'
+
 dependencies:
   flutter:
     sdk: flutter
