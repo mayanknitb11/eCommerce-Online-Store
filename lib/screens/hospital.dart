@@ -127,7 +127,7 @@ class SignInButtonWidget extends StatelessWidget {
                 ),
               ),
               onTap: () {
-                Navigator.push(context, ScaleRoute(page: HomePage()));
+                Navigator.push(context, ScaleRoute(page: Search()));
               },
             ),
           ),

@@ -19,8 +19,10 @@ class _FrontPageState extends State<FrontPage> {
       appBar: AppBar(
           title: Text(
             'Consumers Help',
-            textAlign: TextAlign.center,
+            style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold),
           ),
+        centerTitle: true,
+
           backgroundColor: Colors.orange[500]),
       body: Container(
         color: Colors.white10,
@@ -57,11 +59,11 @@ class _FrontPageState extends State<FrontPage> {
                 height: 100,
                 alignment: Alignment.center,
                 child: Image.asset(
-                  "assets/images/menus/ic_food_express.png",
+                  "assets/images/img/hospital.jpg",
                 ),
               ),
               onTap: () {
-                Navigator.push(context, ScaleRoute(page: SignInPage()));
+                Navigator.push(context, ScaleRoute(page: Hospital()));
               },
             ),
             InkWell(
@@ -70,11 +72,11 @@ class _FrontPageState extends State<FrontPage> {
                 height: 100,
                 alignment: Alignment.center,
                 child: Image.asset(
-                  "assets/images/img/hospital.jpg",
+                  "assets/images/menus/ic_food_express.png",
                 ),
               ),
               onTap: () {
-                Navigator.push(context, ScaleRoute(page: Hospital()));
+                Navigator.push(context, ScaleRoute(page: SignInPage()));
               },
             ),
             InkWell(
